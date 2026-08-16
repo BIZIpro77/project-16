@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="400"
+     height="260"
+     viewBox="0 0 400 260">
+
+    <defs>
+
+        <linearGradient id="body"
+            x1="0%"
+            y1="0%"
+            x2="100%"
+            y2="100%">
+
+            <stop offset="0%" stop-color="#6D28D9"/>
+            <stop offset="100%" stop-color="#4338CA"/>
+
+        </linearGradient>
+
+    </defs>
+
+    <!-- Shadow -->
+
+    <ellipse
+        cx="200"
+        cy="225"
+        rx="120"
+        ry="18"
+        fill="rgba(0,0,0,.25)"/>
+
+    <!-- Envelope -->
+
+    <rect
+
+        x="50"
+        y="40"
+
+        width="300"
+        height="170"
+
+        rx="18"
+
+        fill="url(#body)"
+
+        stroke="#A78BFA"
+
+        stroke-width="4"
+
+    />
+
+    <!-- Left Fold -->
+
+    <polygon
+
+        points="50,40 200,140 50,210"
+
+        fill="#5B21B6"
+
+    />
+
+    <!-- Right Fold -->
+
+    <polygon
+
+        points="350,40 200,140 350,210"
+
+        fill="#5B21B6"
+
+    />
+
+    <!-- Bottom Fold -->
+
+    <polygon
+
+        points="50,210 200,110 350,210"
+
+        fill="#4C1D95"
+
+    />
+
+    <!-- Top Flap -->
+
+    <polygon
+
+        points="50,40 200,145 350,40"
+
+        fill="#7C3AED"
+
+    />
+
+</svg>
